@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "constructorInjection.Demo",
+            "projectName": "learning"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Eagar_Lazy_Bean.Demo",
+            "projectName": "learning"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Demo<learning>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Demo",
+            "projectName": "learning",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
